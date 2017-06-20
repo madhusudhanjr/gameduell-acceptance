@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="GameDuell Test Suite" preserve-order="true">
+
+	<parameter name="browser" value="CHROME" />
+	<parameter name="url" value="https://www.gameduell.com" />
+
+	<test name="Acceptance Tests">
+		<classes>
+			<class name="com.gameduell.tests.GameduellTest">
+			</class>
+		</classes>
+	</test>
+</suite>
