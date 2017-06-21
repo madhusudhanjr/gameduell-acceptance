@@ -83,7 +83,7 @@ public class BaseTest {
 		switch (Drivers.valueOf(browser)) {
 		case CHROME:
 
-			System.setProperty("webdriver.chrome.driver", "/Users/mjr/Downloads/chromedriver");
+			System.setProperty("webdriver.chrome.driver", "src/test/resources/Drivers/chromedriver");
 			m_driver = new ChromeDriver(capabilites);
 			break;
 
